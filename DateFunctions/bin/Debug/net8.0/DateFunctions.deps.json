@@ -1,0 +1,45 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DateFunctions/1.0.0": {
+        "dependencies": {
+          "DecisionsSDK": "9.1.0"
+        },
+        "runtime": {
+          "DateFunctions.dll": {}
+        }
+      },
+      "DecisionsSDK/9.1.0": {
+        "runtime": {
+          "lib/net8.0/Decisions.Web.Core.dll": {
+            "assemblyVersion": "9.1.0.0",
+            "fileVersion": "9.1.0.8313"
+          },
+          "lib/net8.0/DecisionsFramework.dll": {
+            "assemblyVersion": "9.1.0.0",
+            "fileVersion": "9.1.0.8313"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DateFunctions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DecisionsSDK/9.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+hMi2D+no0vntkPJ+G/k+8qcIyNYEhIalNMLg3sgquv9f2JvZXemkTq9Uksc8UUFoPbmxS++M+3pks8S8mhzVg==",
+      "path": "decisionssdk/9.1.0",
+      "hashPath": "decisionssdk.9.1.0.nupkg.sha512"
+    }
+  }
+}
